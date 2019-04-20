@@ -102,3 +102,28 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# local
+*~
+*.a
+bkp
+*.bkp
+build
+data
+*.doc
+*.docx
+*.err
+.idea
+images
+*.log
+*.o
+*.old
+*.ori
+*.out
+*.pyc
+.pycheckrc
+*.pyo
+*.tgz
+tst
+*.x
+*.zip

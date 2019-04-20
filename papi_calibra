@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# desabilita o proxy
+if [ -e ./x_proxy.sh ]
+then
+    source ./x_proxy.sh
+fi
+
+# nome do computador
+HOST=`hostname`
+
+#  executa a aplicação (-OO)
+/usr/bin/env python ./papi_calibra.py "$@" 2> ./papi_calibra.$HOST.log
